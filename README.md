@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Solana gossip protocol requires each validator client to report a unique client identifier. These identifiers are used in gossip contact info messages to distinguish between different validator client implementations.
+The Solana gossip protocol allows each validator client to report a unique client identifier. The client identifier is used in gossip contact info messages to distinguish between different validator client implementations.
 
 A client identifier is a **16-bit, little endian unsigned integer** (range: 0-65535). All Solana validator clients must implement the same set of identifiers as defined in [client-ids.csv](client-ids.csv).
 
