@@ -1,10 +1,10 @@
-# Solana Validator Client Ids
+# Trezoa Validator Client Ids
 
 ## Overview
 
-The Solana gossip protocol allows each validator client to report a unique client identifier. The client identifier is used in gossip contact info messages to distinguish between different validator client implementations.
+The Trezoa gossip protocol allows each validator client to report a unique client identifier. The client identifier is used in gossip contact info messages to distinguish between different validator client implementations.
 
-A client identifier is a **16-bit, little endian unsigned integer** (range: 0-65535). All Solana validator clients must implement the same set of identifiers as defined in [client-ids.csv](client-ids.csv).
+A client identifier is a **16-bit, little endian unsigned integer** (range: 0-65535). All Trezoa validator clients must implement the same set of identifiers as defined in [client-ids.csv](client-ids.csv).
 
 ## Requesting a New Client Identifier
 
@@ -14,7 +14,7 @@ A new client identifier request should meet the following criteria:
 
 - The request comes from a team that is building and supporting a **materially new** validator client implementation
 - The client is **open source**
-- The client has (or plans to have) **some percentage of stake** on Solana mainnet-beta
+- The client has (or plans to have) **some percentage of stake** on Trezoa mainnet-beta
 
 ### Step-by-Step Process
 
@@ -39,4 +39,4 @@ A new client identifier request should meet the following criteria:
 
 ## Existing Client Requirements
 
-All existing Solana validator clients are **expected** to monitor this repository and implement any changes to `client-ids.csv` as soon as possible in their client codebase.  New clients are encouraged to make a pull reqeust to the existing validator clients and link to the merged pull request from this repository.
+All existing Trezoa validator clients are **expected** to monitor this repository and implement any changes to `client-ids.csv` as soon as possible in their client codebase.  New clients are encouraged to make a pull reqeust to the existing validator clients and link to the merged pull request from this repository.
