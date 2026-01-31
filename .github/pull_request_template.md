@@ -12,7 +12,7 @@
 - [ ] I have reviewed [client-ids.csv](client-ids.csv) and confirmed the requested ID is the next available sequential ID
 - [ ] Our team is building and supporting a materially new validator client implementation
 - [ ] The client is open source (link provided below)
-- [ ] The client has or plans to have stake on Solana mainnet-beta
+- [ ] The client has or plans to have stake on Trezoa mainnet-beta
 
 ### Client Details
 
